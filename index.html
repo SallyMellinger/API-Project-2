@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta charset="utf-8">
+    <title>Holiday Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Yesteryear">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Raleway">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div id="main">
+      <h1 id="title">Let's Find Something To Celebrate</h1>
+      </div>
+   
+
+    <div class="searchBox" id="mainSearch">
+        <!--Search Form-->
+        <form>
+          
+          <p>
+            <label for="search">Show me holidays in</label>
+            <!-- <input type="text" id="month" class="month" required> -->
+  <select name="month" class="month" id="month">
+  <option value="0">Select Month</option>
+  <option value="1">January</option>
+  <option value="2">Feburary</option>
+  <option value="3">March</option>
+  <option value="4">April</option>
+  <option value="5">May</option>
+  <option value="6">June</option>
+  <option value="7">July</option>
+  <option value="8">August</option>
+  <option value="9">September</option>
+  <option value="10">October</option>
+  <option value="11">November</option>
+  <option value="12">December</option>
+  </select>
+
+  <label for="search"></label>
+  <select name="year" class="year" id="year">
+    <option value="2020">2020</option>
+    <option value="2021">2021</option>
+    <option value="2022">2022</option>
+    <option value="2023">2023</option>
+    <option value="2024">2024</option>
+    <option value="2025">2025</option>
+
+</select>
+          </p>
+          <p>
+            <button class="submit">Party On</button>
+          </p>
+        </form>
+      </div>
+      </div>
+      <!--Results Section-->
+      <div class="title">
+        <br>
+      <h1 id="resultsTitle"></h1>
+      <br>
+      </div>
+      <div class="results">
+        <!--Results From Request-->
+        <h1></h1>
+        <section>
+
+        </section>
+      </div>
+   
+
+    <script src="scripts.js"></script>
+
+ 
+  </body>
+</html>

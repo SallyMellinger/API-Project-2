@@ -1,0 +1,123 @@
+body{
+    color: rgb(0, 0, 0);
+    background-image: url("/purple-1788479.png")
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+ 
+
+}
+#title {
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+}
+
+#main {
+    
+    font-family: yesteryear;
+    color: rgb(1, 202, 192);
+    text-shadow: 2px 4px 4px #000000;
+    margin-bottom: -4%;
+    z-index: 1;
+}
+
+
+.searchBox{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px -1px rgb(0, 0, 0);
+    border-radius: 0px;
+    padding: 10%;
+    font-family: Raleway;
+    font-size: 30px;
+    opacity: .92;
+    align-items: center;
+    
+}
+article{
+   
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px -1px rgb(0, 0, 0);
+    font-family: raleway;
+    opacity: .92;
+    
+
+}
+
+.results{
+    display: flexbox;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+select {
+    width: auto;
+    height: 80px;
+    font-size: 30px;
+    font-family: raleway;
+    cursor: pointer;
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    margin: 9px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px;
+  }
+  option {
+      font-family: raleway;
+  }
+ 
+button{
+    background-color:  rgb(1, 202, 192);
+    box-shadow: 0px 0px 10px -1px rgb(0, 0, 0);
+    margin: 0;
+    margin-top: 5%;
+    align-self: center;
+    margin-left: 39%;
+}
+
+p{
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    font-family: yesteryear;
+    color: rgb(1, 202, 192);
+    text-shadow: 2px 4px 4px #000000;
+}
+
+h3{
+    color: rgb(1, 202, 192);
+    font-weight: bold;
+    font-size: x-large;
+}
+h2{
+    font-weight: bold;
+}
+
+p{
+ text-align: left;
+}
